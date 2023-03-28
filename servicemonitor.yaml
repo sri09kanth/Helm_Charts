@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/component: metrics
     {{- range $key, $value := .Values.metrics.serviceMonitor.additionalLabels }}
     {{ $key }}: {{ $value | quo
-  {{- end }}
+  {{- end }
 spec:
   selector:
     matchLabels:
