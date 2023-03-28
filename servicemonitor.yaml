@@ -9,7 +9,7 @@ metadata:
   labels: {{- include "selectel-billing-exporter.labels" . | nindent 4 }}
     app.kubernetes.io/component: metrics
     {{- range $key, $value := .Values.metrics.serviceMonitor.additionalLabels }}
-    {{ $key }}: {{ $value | quote 
+    {{ $key }}: {{ $value | quote
   {{- end }}
 spec:
   selector:
