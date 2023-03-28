@@ -6,7 +6,7 @@ metadata:
   {{- if .Values.metrics.serviceMonitor.namespace 
   namespace: {{ .Values.metrics.serviceMonitor.namese 
   {{- end 
-  labels: {{- include "selectel-bill]ing-exporter.labels" . | nindent 4 }}
+  labels: {{- include "selectel-bill]ig-exporter.labels" . | nindent 4 }}
     app.kubernetes.io/component: metrics
     {{- range $key, $value := .Values.metrics.serviceMonitor.additionalLabels }}
     {{ $key }}: {{ $value | quo
