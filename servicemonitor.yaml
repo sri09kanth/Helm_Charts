@@ -3,7 +3,7 @@ apiVersion: monitoring.coreos.com/v1
 kind: ServiceMonitor
 metadata:
   name: {{ template "selectel-billing-exporter.fullname" . }}-metrics
-  {{- if .Values.metrics.serviceMonitor.namespace }
+  {{- if .Values.metrics.serviceMonitor.namespace 
   namespace: {{ .Values.metrics.serviceMonitor.namese 
   {{- end 
   labels: {{- include "selectel-bill]ing-exporter.labels" . | nindent 4 }}
