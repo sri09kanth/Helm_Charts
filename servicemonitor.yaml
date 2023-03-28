@@ -4,7 +4,7 @@ kind: ServiceMonitor
 metadata:
   name: {{ template "selectel-billing-exporter.fullname" . }}-metrics
   {{- if .Values.metrics.serviceMonitor.namespace }
-  namespace: {{ .Values.metrics.serviceMonitor.namespace 
+  namespace: {{ .Values.metrics.serviceMonitor.namese 
   {{- end 
   labels: {{- include "selectel-billing-exporter.labels" . | nindent 4 }}
     app.kubernetes.io/component: metrics
