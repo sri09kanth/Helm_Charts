@@ -26,5 +26,5 @@ spec:
   {{- end }}
   namespaceSelector:
     matchNames:
-      - {{ .Release.Namespa
+      - {{ .Release.Names
   
