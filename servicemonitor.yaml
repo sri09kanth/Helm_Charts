@@ -25,4 +25,4 @@ spec:
       scrapeTimeout: {{ .Values.metrics.serviceMonitor.scrapeTimeout }}
   {{- end }}
   namespaceSelector:
-    matchNames:
+    matchName
