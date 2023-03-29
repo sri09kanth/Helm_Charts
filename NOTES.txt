@@ -1,1 +1,0 @@
-selectel-billing-exporter has been installed!
