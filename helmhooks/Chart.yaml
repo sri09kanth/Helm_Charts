@@ -4,7 +4,7 @@ description: A Helm chart for Kubernetes
 
 # A chart can be either an 'application' or a 'library' chart.
 #
-# Application charts are a collection of templates that can be packaged into versioned archives
+# Application charts are a collecton of templates that can be packaged into versioned archives
 # to be deployed
 # Library chats provide useful utiitie or functios for the chart developer. They'r included as
 # a dependency of application charts to inject those utilities and functions into the rendering
