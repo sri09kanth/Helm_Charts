@@ -1,5 +1,5 @@
 # Default values for mychart.
 # This is a YAML-formatted file.
 # Decare variables to be passed into your templates.
-  \
+  
   food: Pi
